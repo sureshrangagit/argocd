@@ -2,11 +2,11 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: my-private-app
-  namespace: myns
+  namespace: default
 spec:
   project: default
   source:
-    repoURL: https://github.com/venugopalsgnew/ArgoCD_Legro.git
+    repoURL: https://github.com/sureshrangagit/argocd.git
     targetRevision: HEAD
     path: charts/myapp
     helm:
