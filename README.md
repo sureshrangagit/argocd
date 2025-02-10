@@ -1,1 +1,1 @@
-# argocd
+# ArgoCD_Legro
